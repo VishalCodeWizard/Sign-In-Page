@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h2>Sign In</h2>
+    </div>
+    <div class="content">
+        <!-- Sign in options -->
+        <button class="button" id="signInEmail"><i class="fas fa-envelope"></i> Sign in with Email</button>
+        <button class="button" id="signInGitHub"><i class="fab fa-github"></i> Sign in with GitHub</button>
+        <button class="button" id="signInLinkedIn"><i class="fab fa-linkedin"></i> Sign in with LinkedIn</button>
+        <button class="button" id="signInDiscord"><i class="fab fa-discord"></i> Sign in with Discord</button>
+        <button class="button" id="signInInstagram"><i class="fab fa-instagram"></i> Sign in with Instagram</button>
+
+        <!-- Manual sign-in -->
+        <div class="manual-signin">
+            <p>Or sign in manually:</p>
+            <input type="text" id="manualUsername" placeholder="Username or Email">
+            <input type="password" id="manualPassword" placeholder="Password">
+            <button id="manualSignIn"><i class="fas fa-sign-in-alt"></i> Sign In</button>
+        </div>
+    </div>
+    <div class="content dark-mode">
+        <!-- Dark mode option -->
+        <label>
+            <!-- Dark mode checkbox will be added here -->
+        </label>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
